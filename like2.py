@@ -9,7 +9,7 @@ picture = 0
 
 def loginClient():
     global bot, poll
-    bot = LINE(token[0], appName="DESKTOPWIN\t6.2.2\tDESKTOPWIN\t10.0")
+    bot = LINE(token[0], appName="DESKTOPWIN\t6.0.3\tDESKTOPWIN\t10.0")
     poll = OEPoll(bot)
 
 def operationStart(op):
@@ -38,7 +38,7 @@ def operationStart(op):
                             xxx += 1
                         else:
                             try:
-                                ch = LINE(x, appName="DESKTOPWIN\t6.2.2\tDESKTOPWIN\t10.0")
+                                ch = LINE(x, appName="DESKTOPWIN\t6.0.3\tDESKTOPWIN\t10.0")
                                 cp = ch.getProfile();cp.displayName = newName;ch.updateProfile(cp)
                             except:
                                 pass
@@ -54,7 +54,7 @@ def operationStart(op):
                             xxx += 1
                         else:
                             try:
-                                ch = LINE(x, appName="DESKTOPWIN\t6.2.2\tDESKTOPWIN\t10.0")
+                                ch = LINE(x, appName="DESKTOPWIN\t6.0.3\tDESKTOPWIN\t10.0")
                                 cp = ch.getProfile();cp.statusMessage = newStatus;ch.updateProfile(cp)
                             except:
                                 pass
@@ -85,7 +85,7 @@ def operationStart(op):
                         xxx += 1
                     else:
                         try:
-                            ch = LINE(x, appName="DESKTOPWIN\t6.2.2\tDESKTOPWIN\t10.0")
+                            ch = LINE(x, appName="DESKTOPWIN\t6.0.3\tDESKTOPWIN\t10.0")
                             ch.updateProfilePicture("bot_pict.txt")
                         except:
                             pass
@@ -109,7 +109,7 @@ def operationStart(op):
                             xxx += 1
                         else:
                             try:
-                                ch = TIMELINE(x, appName="DESKTOPWIN\t6.2.2\tDESKTOPWIN\t10.0")
+                                ch = TIMELINE(x, appName="DESKTOPWIN\t6.0.3\tDESKTOPWIN\t10.0")
                                 ch.likePost(purl[0], purl[1], random.choice([1001,1002,1003,1004,1005]))
                             except:
                                 pass
