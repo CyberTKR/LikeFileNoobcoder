@@ -15,7 +15,7 @@ Visit [the official web site](https://cyber-tkr.com) for more information.
 
 ## Requirements
 
-- Java 8 or later if you are a user.
+- Python 8 or later if you are a user.
 - See [the developer guide](https://cyber-tkr.com) if you are building FreeBots.
 
 ## How to reach us — chat, questions and newsletters
